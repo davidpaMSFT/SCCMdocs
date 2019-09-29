@@ -175,7 +175,7 @@ A central administration site supports a total number of devices that includes u
 
 - 700,000 Windows desktops. Also see support for [embedded devices](#embedded).
 
-- 25,000 devices that run Mac and Windows CE 7.0  
+- 25,000 devices that run Mac  
 
 - One of the following, depending on how your deployment supports mobile device management (MDM):  
 
@@ -183,7 +183,7 @@ A central administration site supports a total number of devices that includes u
 
     - 300,000 cloud-based devices  
 
-For example, in a hierarchy you can support 700,000 desktops, up to 25,000 Mac and Windows CE 7.0 devices, and up to 300,000 cloud-based devices when you integrate Microsoft Intune. This hierarchy supports a total of 1,025,000 devices. If you support devices that are managed by on-premises MDM, the total for this hierarchy is 825,000 devices.  
+For example, in a hierarchy you can support 700,000 desktops, up to 25,000 Mac devices, and up to 300,000 cloud-based devices when you integrate Microsoft Intune. This hierarchy supports a total of 1,025,000 devices. If you support devices that are managed by on-premises MDM, the total for this hierarchy is 825,000 devices.  
 
 > [!IMPORTANT]  
 > In a hierarchy where the central administration site uses a Standard edition of SQL Server, the hierarchy supports a maximum of 50,000 desktops and devices. To support more than 50,000 desktops and devices, you must use an Enterprise edition of SQL Server. This requirement applies only to a central administration site. It doesn't apply to a stand-alone primary site or a child primary site. The edition of SQL Server you use for a primary site doesn't limit its capacity to support the stated number of clients.
@@ -196,7 +196,7 @@ Each child primary site in a hierarchy with a central administration site suppor
 
 - 150,000 total clients and devices that aren't limited to a specific group or type, as long as support doesn't exceed the number that is supported for the hierarchy. Also see, support for [embedded devices](#embedded).
 
-For example, a primary site supports 25,000 Mac and Windows CE 7.0 devices. That number is the limit for a hierarchy. This primary site can then support an additional 125,000 desktop computers. The total number of supported devices for the child primary site is the supported maximum limit of 150,000.
+For example, a primary site supports 25,000 Mac devices. That number is the limit for a hierarchy. This primary site can then support an additional 125,000 desktop computers. The total number of supported devices for the child primary site is the supported maximum limit of 150,000.
 
 ### <a name="bkmk_pri"></a> Stand-alone primary site
 
@@ -206,7 +206,7 @@ A stand-alone primary site supports the following number of devices:
 
     - 150,000 desktops (computers that run Windows, Linux, and UNIX). Also see, support for [embedded devices](#embedded).
 
-    - 25,000 devices that run Mac and Windows CE 7.0
+    - 25,000 devices that run Mac
 
     - One of the following, depending on how your deployment supports mobile device management:  
 
@@ -214,7 +214,7 @@ A stand-alone primary site supports the following number of devices:
 
         - 150,000 cloud-based devices  
 
-For example, a stand-alone primary site that supports 150,000 desktops and 10,000 Mac or Windows CE 7.0 can support only an additional 15,000 devices. Those devices can be either cloud-based or managed by using on-premises MDM.  
+For example, a stand-alone primary site that supports 150,000 desktops and 10,000 Mac devices can support only an additional 15,000 devices. Those devices can be either cloud-based or managed by using on-premises MDM.  
 
 ### <a name="embedded"></a> Primary sites and Windows Embedded devices
 
@@ -238,4 +238,4 @@ Each management point can support the following number of devices:
 
         - 10,000 devices that are managed by using on-premises MDM  
 
-        - 10,000 devices that run Mac and Windows CE 7.0 clients
+        - 10,000 devices that run Mac clients
