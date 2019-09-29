@@ -37,19 +37,19 @@ Use Desktop Analytics with Configuration Manager to:
 > [!Note]  
 > Desktop Analytics is a successor of Windows Analytics. The *Windows Analytics* service includes Upgrade Readiness, Update Compliance, and Device Health.
 >
-> All of these capabilities are combined in the *Desktop Analytics* service. Desktop Analytics also is more tightly integrated with Configuration Manager.
+> All of these capabilities are combined in the *Desktop Analytics* service. Desktop Analytics is also more tightly integrated with Configuration Manager.
 
 
 
 ## Benefits
 
-Many customers have challenges with getting and staying current with Windows 10. The primary challenge is testing applications. This process is typically manual. It's time-consuming for IT administrators and application owners to continually analyze existing applications. Then remediate any issues that arise.
+Many customers have challenges with getting and staying current with Windows 10. The primary challenge is validating and remediating application compatibility. This process is typically manual. It's time-consuming for IT administrators and application owners to continually analyze existing applications, then remediate any issues that arise.
 
 Desktop Analytics provides the following benefits:
 
 - **Device and software inventory**: Inventory of key factors such as apps and versions of Windows.  
 
-- **Pilot identification**: Identification of the smallest set of devices that provide the widest coverage of factors. It focuses on the factors that are most important to a pilot of Windows upgrades and updates. Making sure the pilot is more successful allows you to proceed more quickly and confidently to broad deployments in production.  
+- **Pilot identification**: Identification of the smallest set of devices that provide the widest coverage of factors. It focuses on the factors that are most important to a pilot of Windows upgrades and updates. Making sure the pilot is more representative allows you to proceed more quickly and confidently to broad deployments in production.  
 
 - **Issue identification**: Using aggregated market data along with data from your environment, the service predicts potential issues to getting and staying current with Windows. It then suggests potential mitigations.  
 
