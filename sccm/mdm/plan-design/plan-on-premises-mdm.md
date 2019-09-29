@@ -30,8 +30,6 @@ The current branch of Configuration Manager supports enrollment in On-premises M
 - Windows 10 Enterprise  
 - Windows 10 Pro  
 - Windows 10 Team   
-- Windows 10 Mobile  
-- Windows 10 Mobile Enterprise
 - Windows 10 IoT Enterprise   
 
 
